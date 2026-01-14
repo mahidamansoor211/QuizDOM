@@ -1,0 +1,405 @@
+{
+  "questions": [
+    {
+      "question": "1. Which is the most popular JavaScript framework?",
+      "subject": "react",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "2. Which company invented React?",
+      "subject": "react",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "3. What's the fundamental building block of React apps?",
+      "subject": "react",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "4. What's the name of the syntax we use to describe the UI in React components?",
+      "subject": "react",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "5. How does data flow naturally in React apps?",
+      "subject": "react",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developers decides"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "6. How to pass data into a child component?",
+      "subject": "react",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "7. When to use derived state?",
+      "subject": "react",
+      "options": [
+        "Whenever the state should not trigger a re-render",
+        "Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "Whenever the state can be computed from another state variable"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "8. What triggers a UI re-render in React?",
+      "subject": "react",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "Updating state",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "9. When do we directly \"touch\" the DOM in React?",
+      "subject": "react",
+      "options": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "10. In what situation do we use a callback to update state?",
+      "subject": "react",
+      "options": [
+        "When updating the state will be slow",
+        "When the updated state is very data-intensive",
+        "When the state update should happen faster",
+        "When the new state depends on the previous state"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "11. If we pass a function to useState, when will that function be called?",
+      "subject": "react",
+      "options": [
+        "On each re-render",
+        "Each time we update the state",
+        "Only on the initial render",
+        "The first time we update the state"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "12. Which hook to use for an API request on the component's initial render?",
+      "subject": "react",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "13. Which variables should go into the useEffect dependency array?",
+      "subject": "react",
+      "options": [
+        "Usually none",
+        "All our state variables",
+        "All state and props referenced in the effect",
+        "All variables needed for clean up"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "14. An effect will always run on the initial render.",
+      "subject": "react",
+      "options": [
+        "True",
+        "It depends on the dependency array",
+        "False",
+        "In depends on the code in the effect"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "15. When will an effect run if it doesn't have a dependency array?",
+      "subject": "react",
+      "options": [
+        "Only when the component mounts",
+        "Only when the component unmounts",
+        "The first time the component re-renders",
+        "Each time the component is re-rendered"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "subject": "css",
+      "question": "1. What does CSS stand for?",
+      "options": [
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Colorful Style Sheets",
+        "Computer Style Sheets"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "subject": "css",
+      "question": "2. Which CSS property is used to change text color?",
+      "options": ["font-color", "text-color", "color", "text-style"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "subject": "css",
+      "question": "3. How do you make a box fully round (circle) in CSS?",
+      "options": [
+        "border-radius: 100px;",
+        "border-radius: 50%;",
+        "border: circle;",
+        "radius: 360;"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "subject": "css",
+      "question": "4. Which property controls the space between elements?",
+      "options": ["margin", "padding", "spacing", "gap"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "subject": "css",
+      "question": "5. How do you apply styles to a specific ID in CSS?",
+      "options": ["#idName", ".idName", "id:idName", "@idName"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "subject": "css",
+      "question": "6. Which value of `position` places the element relative to the browser window?",
+      "options": ["static", "relative", "fixed", "absolute"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "subject": "css",
+      "question": "7. Which shorthand property sets all paddings?",
+      "options": ["padding", "margin", "spacing", "inset"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "subject": "css",
+      "question": "8. Which property changes the size of text?",
+      "options": ["text-size", "font-style", "font-size", "text-style"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "subject": "css",
+      "question": "9. How do you write a comment in CSS?",
+      "options": [
+        "// comment",
+        "<!-- comment -->",
+        "/* comment */",
+        "# comment"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "subject": "css",
+      "question": "10. Which CSS unit is relative to the parent’s font size?",
+      "options": ["px", "em", "%", "vw"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "1. What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Hyperloop Text Maker Language"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "2. Which HTML tag is used to define an unordered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<list>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "3. Which tag is used to make text bold in HTML?",
+      "options": ["<em>", "<b>", "<strong>", "<bold>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "4. What is the correct HTML element for inserting a line break?",
+      "options": ["<break>", "<br>", "<lb>", "<hr>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "5. Which attribute is used to provide a tooltip in HTML?",
+      "options": ["alt", "title", "tooltip", "label"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "6. Which doctype declaration is correct for HTML5?",
+      "options": [
+        "<!DOCTYPE HTML PUBLIC>",
+        "<!HTML5>",
+        "<!DOCTYPE html>",
+        "<html5!>"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "7. Which tag is used to embed an image in HTML?",
+      "options": ["<picture>", "<img>", "<src>", "<image>"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "8. Which tag is used to define a table row?",
+      "options": ["<tr>", "<td>", "<th>", "<table>"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "9. Which input type is used for creating a checkbox?",
+      "options": ["checkbox", "check", "tickbox", "box"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "subject": "html",
+      "question": "10. What tag is used to define the document title that appears in the browser tab?",
+      "options": ["<title>", "<head>", "<meta>", "<header>"],
+      "correctOption": 0,
+      "points": 10
+    },
+
+    {
+      "question": "1. Which keyword is used to declare a variable in JavaScript?",
+      "subject": "js",
+      "options": ["var", "let", "const", "All of the above"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "2. What is the output of: typeof null?",
+      "subject": "js",
+      "options": ["'object'", "'null'", "'undefined'", "'number'"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "3. Which method is used to convert a JSON string into a JavaScript object?",
+      "subject": "js",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.convert()",
+        "JSON.objectify()"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "4. Which symbol is used for strict equality comparison?",
+      "subject": "js",
+      "options": ["==", "===", "=", "!="],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "5. What will this return: Array.isArray([1, 2, 3])?",
+      "subject": "js",
+      "options": ["true", "false", "undefined", "null"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "6. Which JavaScript method is used to run a function after a delay?",
+      "subject": "js",
+      "options": ["setTimeout()", "setInterval()", "delay()", "timeout()"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "7. What does the 'this' keyword refer to in a regular function (not arrow)?",
+      "subject": "js",
+      "options": [
+        "The function itself",
+        "Global object or calling object",
+        "Window always",
+        "The class"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "8. What is the default value of a variable that has been declared but not initialized?",
+      "subject": "js",
+      "options": ["null", "undefined", "false", "0"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "9. What does 'NaN' stand for in JavaScript?",
+      "subject": "js",
+      "options": [
+        "Not a Number",
+        "No assigned Name",
+        "Null and None",
+        "Negative and Null"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "10. Which array method is used to add a new element at the end of an array?",
+      "subject": "js",
+      "options": ["push()", "pop()", "shift()", "unshift()"],
+      "correctOption": 0,
+      "points": 10
+    }
+  ]
+}
