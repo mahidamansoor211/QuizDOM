@@ -1,4 +1,6 @@
 QuizDOM:
+Live Demo: https://quiz-dom-eight.vercel.app
+
 
 QuizDOM is an interactive quiz application built with React and Vite, designed to help developers test their knowledge in a fun and engaging way.
 The app features smooth animations, optimized state management, and a seamless user experience.
