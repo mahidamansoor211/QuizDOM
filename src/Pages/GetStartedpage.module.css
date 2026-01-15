@@ -3,15 +3,38 @@
   display: flex;
   flex-direction: column;
 }
+
 .container {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  padding: 20px 0;
 }
+
 .heading {
   font-size: 28px;
-  padding: 40px;
+  padding: 40px 20px;
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 22px;
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .container {
+    padding: 10px 0;
+  }
 }

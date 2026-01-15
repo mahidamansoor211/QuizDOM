@@ -1,8 +1,7 @@
 .finish {
   background-color: #ffffff;
-  padding: 4rem 2rem 4rem; /* Added more bottom padding */
+  padding: 4rem 2rem;
   border-radius: 1.5rem;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   margin: 6rem auto;
   text-align: center;
@@ -11,18 +10,73 @@
 }
 
 .buttonWrapper {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
-h2 {
-  font-size: 2rem;
+.finish h2 {
+  font-size: 2.5rem;
   color: #333;
   margin-bottom: 2rem;
 }
 
-.score,
-.highscore {
-  font-size: 1.2rem;
+.score {
+  font-size: 1.5rem;
   color: #555;
   margin-bottom: 1rem;
+}
+
+.score strong {
+  color: #1d2d44;
+  font-size: 1.8rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .finish {
+    max-width: 90%;
+    margin: 4rem auto;
+    padding: 3rem 1.5rem;
+  }
+
+  .finish h2 {
+    font-size: 2rem;
+  }
+
+  .score {
+    font-size: 1.2rem;
+  }
+
+  .buttonWrapper {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .finish {
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+  }
+
+  .finish h2 {
+    font-size: 1.8rem;
+  }
+
+  .score strong {
+    font-size: 1.5rem;
+  }
+
+  .buttonWrapper {
+    margin-top: 2.5rem;
+  }
 }

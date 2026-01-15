@@ -4,6 +4,9 @@
   align-items: center;
   justify-content: center;
   min-height: 60vh;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .loader {
@@ -21,10 +24,43 @@
   color: #1d2d44;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 @keyframes spin {
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    min-height: 40vh;
+  }
+
+  .loader {
+    width: 40px;
+    height: 40px;
+    border-width: 4px;
+  }
+
+  .text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    min-height: 30vh;
+  }
+
+  .loader {
+    width: 35px;
+    height: 35px;
+    border-width: 3px;
+  }
+
+  .text {
+    font-size: 1rem;
   }
 }
